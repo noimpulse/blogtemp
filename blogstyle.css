@@ -1,0 +1,47 @@
+/* базовые настройки */
+body {
+  height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* топ бар */
+.topbar {
+  padding-bottom: 20px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.menu li {
+  display: inline;
+}
+.logo {
+  margin-left: 20px;
+  font-size: xx-large;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.521);
+}
+.nazv {
+  display: inline-flex;
+}
+.menu {
+  background-color: rgba(224, 240, 240, 0);
+  margin-right: 40px;
+  font-weight: 700;
+  font-size: xx-large;
+}
+.imgoflogo {
+  height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+}

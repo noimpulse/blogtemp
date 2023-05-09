@@ -1,6 +1,4 @@
-/*топ бар*/
-
-
+/* базовые настройки */
 body {
   height: 100vh;
 }
@@ -12,13 +10,8 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
 }
-body {
-  background-color: rgb(20, 20, 20);
 
-  background-image: url("img/kos22.jpg");
-  background-size: cover;
-  background-color: aliceblue;
-}
+/* топ бар */
 .topbar {
   padding-bottom: 20px;
   background-color: aqua;
@@ -38,7 +31,7 @@ body {
   gap: 20px;
   background-color: rgba(255, 255, 255, 0.521);
 }
-.nazv{
+.nazv {
   display: inline-flex;
 }
 .menu {
@@ -52,8 +45,17 @@ body {
   margin-left: 10px;
   margin-top: 10px;
 }
+
+/* шапка*/
+#bodymain {
+  background-color: rgb(20, 20, 20);
+
+  background-image: url("img/kos22.jpg");
+  background-size: cover;
+  background-color: aliceblue;
+}
 .shapka {
-  display:flex;
+  display: flex;
   position: relative;
   justify-content: space-between;
   margin-top: 100px;
@@ -62,11 +64,9 @@ body {
   color: rgb(255, 255, 255);
   font-weight: 600;
 
-
   padding-bottom: 20px;
-
 }
-.about-text{
+.about-text {
   font-size: 2em;
   color: rgb(255, 255, 255);
   font-weight: 600;
@@ -76,7 +76,6 @@ body {
   position: relative;
 
   margin-left: 20px;
-
 
   padding-bottom: 20px;
   width: 40%;
@@ -109,61 +108,60 @@ body {
 
   border: 10px solid lawngreen;
 }
-@media screen and (max-width:500px) {
-  .imgoflogo{
+
+@media screen and (max-width: 500px) {
+  .imgoflogo {
     width: 40px;
 
-    height: auto
+    height: auto;
   }
-  .logo{
-    font-size:medium;
+  .logo {
+    font-size: medium;
   }
-  .menu li a{
+  .menu li a {
     margin-right: 5px;
     margin-top: 5px;
     font-size: large;
   }
-  .shapka{
+  .shapka {
     display: block;
     margin-top: 30px;
   }
-  .kart{
-    float:right;
+  .kart {
+    float: right;
     width: 90%;
     margin-top: 20px;
     margin-right: 3px;
   }
-  .about{
+  .about {
     width: 94%;
 
     margin: 0px;
-
   }
-  .about-text{
-    font-size:30px;
+  .about-text {
+    font-size: 30px;
   }
 }
-@media screen and (max-width:1200px) and (min-width:700px) {
-  .shapka{
-    gap:30px;
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+  .shapka {
+    gap: 30px;
     justify-content: baseline;
   }
 
-  .about{
+  .about {
     width: 55%;
   }
-  .kart{
+  .kart {
     width: 40%;
-
   }
 }
 
-@media screen and (max-width:800px) and (min-width:500px) {
-  .about-text{
-    font-size:40px;
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  .about-text {
+    font-size: 40px;
     padding-right: 10px;
   }
-  .about{
+  .about {
     width: 50%;
     margin-left: 1px;
   }
@@ -174,15 +172,15 @@ body {
     border: 2px solid lawngreen;
   }
 
-  .imgoflogo{
+  .imgoflogo {
     width: 50px;
 
-    height: auto
+    height: auto;
   }
-  .logo{
-    font-size:large;
+  .logo {
+    font-size: large;
   }
-  .menu li a{
+  .menu li a {
     margin-right: 5px;
     margin-top: 5px;
     font-size: x-large;
