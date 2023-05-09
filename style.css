@@ -1,0 +1,190 @@
+/*топ бар*/
+
+
+body {
+  height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(20, 20, 20);
+
+  background-image: url("img/kos22.jpg");
+  background-size: cover;
+  background-color: aliceblue;
+}
+.topbar {
+  padding-bottom: 20px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.menu li {
+  display: inline;
+}
+.logo {
+  margin-left: 20px;
+  font-size: xx-large;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.521);
+}
+.nazv{
+  display: inline-flex;
+}
+.menu {
+  background-color: rgba(224, 240, 240, 0);
+  margin-right: 40px;
+  font-weight: 700;
+  font-size: xx-large;
+}
+.imgoflogo {
+  height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.shapka {
+  display:flex;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 20px;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+
+
+  padding-bottom: 20px;
+
+}
+.about-text{
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.507);
+}
+.about {
+  position: relative;
+
+  margin-left: 20px;
+
+
+  padding-bottom: 20px;
+  width: 40%;
+}
+.about p a {
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  background-color: blueviolet;
+  font-size: medium;
+  margin-left: 20px;
+  color: aliceblue;
+  border: 2px solid rgb(255, 59, 59);
+
+  border-radius: 2px;
+}
+.about p {
+  padding: 10px;
+}
+.menu li a {
+  text-decoration: none;
+  color: rgb(69, 0, 133);
+}
+.kart {
+  width: 40%;
+  object-fit: cover;
+  right: 0px;
+  float: right;
+  margin: 0px;
+  margin-right: 20px;
+
+  border: 10px solid lawngreen;
+}
+@media screen and (max-width:500px) {
+  .imgoflogo{
+    width: 40px;
+
+    height: auto
+  }
+  .logo{
+    font-size:medium;
+  }
+  .menu li a{
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: large;
+  }
+  .shapka{
+    display: block;
+    margin-top: 30px;
+  }
+  .kart{
+    float:right;
+    width: 90%;
+    margin-top: 20px;
+    margin-right: 3px;
+  }
+  .about{
+    width: 94%;
+
+    margin: 0px;
+
+  }
+  .about-text{
+    font-size:30px;
+  }
+}
+@media screen and (max-width:1200px) and (min-width:700px) {
+  .shapka{
+    gap:30px;
+    justify-content: baseline;
+  }
+
+  .about{
+    width: 55%;
+  }
+  .kart{
+    width: 40%;
+
+  }
+}
+
+@media screen and (max-width:800px) and (min-width:500px) {
+  .about-text{
+    font-size:40px;
+    padding-right: 10px;
+  }
+  .about{
+    width: 50%;
+    margin-left: 1px;
+  }
+  .kart {
+    width: 45%;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 2px solid lawngreen;
+  }
+
+  .imgoflogo{
+    width: 50px;
+
+    height: auto
+  }
+  .logo{
+    font-size:large;
+  }
+  .menu li a{
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: x-large;
+  }
+}
