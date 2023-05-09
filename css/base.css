@@ -45,3 +45,44 @@ body {
   margin-left: 10px;
   margin-top: 10px;
 }
+
+
+@media screen and (max-width: 500px) {
+  .imgoflogo {
+    width: 40px;
+
+    height: auto;
+  }
+  .logo {
+    font-size: medium;
+  }
+  .menu li a {
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: large;
+  }
+  
+  
+}
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+
+  
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+ 
+  
+  .imgoflogo {
+    width: 50px;
+
+    height: auto;
+  }
+  .logo {
+    font-size: large;
+  }
+  .menu li a {
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: x-large;
+  }
+}

@@ -1,56 +1,9 @@
-/* базовые настройки */
-body {
-  height: 100vh;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  box-sizing: border-box;
-}
-
-/* топ бар */
-.topbar {
-  padding-bottom: 20px;
-  background-color: aqua;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-.menu li {
-  display: inline;
-}
-.logo {
-  margin-left: 20px;
-  font-size: xx-large;
-  display: inline-flex;
-  align-items: center;
-  margin-top: 25px;
-  gap: 20px;
-  background-color: rgba(255, 255, 255, 0.521);
-}
-.nazv {
-  display: inline-flex;
-}
-.menu {
-  background-color: rgba(224, 240, 240, 0);
-  margin-right: 40px;
-  font-weight: 700;
-  font-size: xx-large;
-}
-.imgoflogo {
-  height: 80px;
-  margin-left: 10px;
-  margin-top: 10px;
-}
 
 /* шапка*/
-#bodymain {
-  background-color: rgb(20, 20, 20);
+body{
+  background-color: rgb(231, 83, 83);
 
-  background-image: url("img/kos22.jpg");
+  background-image: url("/img/kos22.jpg");
   background-size: cover;
   background-color: aliceblue;
 }
@@ -110,19 +63,8 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  .imgoflogo {
-    width: 40px;
 
-    height: auto;
-  }
-  .logo {
-    font-size: medium;
-  }
-  .menu li a {
-    margin-right: 5px;
-    margin-top: 5px;
-    font-size: large;
-  }
+  
   .shapka {
     display: block;
     margin-top: 30px;
@@ -172,17 +114,5 @@ body {
     border: 2px solid lawngreen;
   }
 
-  .imgoflogo {
-    width: 50px;
-
-    height: auto;
-  }
-  .logo {
-    font-size: large;
-  }
-  .menu li a {
-    margin-right: 5px;
-    margin-top: 5px;
-    font-size: x-large;
-  }
+  
 }
